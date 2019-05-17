@@ -1,0 +1,9 @@
+use v6.c;
+use Test;
+use Constants::Net::If :ALL;
+
+plan 1;
+
+is IFF::UP.value, 1, <Can extract value from IFF>;
+
+done-testing;
