@@ -1,7 +1,7 @@
 NAME
 ====
 
-Constants::Net::If - blah blah blah
+Constants::Net::If - Constants found in net/if.h
 
 SYNOPSIS
 ========
@@ -13,7 +13,7 @@ use Constants::Net::If;
 DESCRIPTION
 ===========
 
-Constants::Net::If is ...
+Constants::Net::If contains constants found in the net/if.h file on unix-like operating systems.
 
 AUTHOR
 ======
