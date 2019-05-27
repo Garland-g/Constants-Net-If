@@ -37,6 +37,8 @@ This library is free software; you can redistribute it and/or modify it under th
 
 =end pod
 
+unit module Constants::Net::If:ver<0.0.1>:auth<cpan:GARLANDG>;
+
 constant IFF is export(:IFF) := $*KERNEL.name eq 'linux' ?? do {
   my enum IFF (
     UP => 0x1,
