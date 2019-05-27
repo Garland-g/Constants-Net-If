@@ -16,8 +16,14 @@ use Constants::Net::If;
 
 =head1 DESCRIPTION
 
-Constants::Net::If contains constants found in the net/if.h file
-on unix-like operating systems.
+Constants::Net::If contains many enumerated values that are implemented as
+#define directives in <net/if.h> file on unix-like operating systems.
+
+This module should be compatible with windows, macos, linux, netbsd,
+freebsd, openbsd, and dragonflybsd. Each platform will receive a
+slightly different enumerations.
+
+Based on C headers found on official sites and unofficial mirrors of source trees.
 
 =head1 AUTHOR
 
